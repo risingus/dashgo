@@ -12,7 +12,7 @@ export default function CreteUsder() {
         <Sidebar /> 
 
         <Box flex="1" borderRadius={8} bg="gray.800" p="8"> 
-        <Heading size="lg" fontHeight="normal">Criar usuário</Heading>
+        <Heading size="lg" fontWeight="normal">Criar usuário</Heading>
 
         <Divider my="6" borderColor="gray.700" />
 
