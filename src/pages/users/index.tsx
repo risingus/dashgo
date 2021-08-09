@@ -23,15 +23,11 @@ export default function Userlist() {
               Usuários
             </Heading>
 
-            <Link
-              href="users/create"
-              passHref
-            >
+            <Link href="users/create" passHref>
               <Button as="a" size="sm" fontSize="sm" colorScheme="pink" leftIcon={<Icon as={RiAddLine} fontSize="20" />}>
                 Criar novo
               </Button>
             </Link>
-           
           </Flex>
 
           <Table colorScheme="whiteAlpha">

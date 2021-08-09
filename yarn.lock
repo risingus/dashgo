@@ -87,7 +87,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.13, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.7.2":
+"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.10.5, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.13, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.7.2":
   version: 7.14.8
   resolution: "@babel/runtime@npm:7.14.8"
   dependencies:
@@ -1142,6 +1142,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@hookform/resolvers@npm:^2.7.1":
+  version: 2.7.1
+  resolution: "@hookform/resolvers@npm:2.7.1"
+  peerDependencies:
+    react-hook-form: ^7.0.0
+  checksum: 119996e3c8061b026b42162cd247541c23b9d29a9c737ee723be863cbc1c593cb95f0187b4d0e9f3a7d2c014adc59edfc38bd43511db4b04ee4383f9f96ad1f9
+  languageName: node
+  linkType: hard
+
 "@humanwhocodes/config-array@npm:^0.5.0":
   version: 0.5.0
   resolution: "@humanwhocodes/config-array@npm:0.5.0"
@@ -1517,6 +1526,13 @@ __metadata:
   version: 4.14.171
   resolution: "@types/lodash@npm:4.14.171"
   checksum: e48668fb030ad7d8c0c7751061bd332ad8704937d976bd4e24fd9e2128f80c17112be11e5c13d39f6a210336dc3549f7fb00eaebb56b94c2bfb89ad64c57d721
+  languageName: node
+  linkType: hard
+
+"@types/lodash@npm:^4.14.165":
+  version: 4.14.172
+  resolution: "@types/lodash@npm:4.14.172"
+  checksum: d4b9c66aa1775ca9105f95fdaf92b8c7ee646fcb75fa8c0617020456470b140f9204335a66e152f269f9cd531634ac3d0caa3f85ce3acdad9bc6951aa6e89aae
   languageName: node
   linkType: hard
 
@@ -2649,6 +2665,7 @@ __metadata:
     "@chakra-ui/react": ^1.6.5
     "@emotion/react": ^11.4.0
     "@emotion/styled": ^11.3.0
+    "@hookform/resolvers": ^2.7.1
     "@types/node": ^16.4.6
     "@types/react": ^17.0.15
     apexcharts: ^3.27.3
@@ -2662,6 +2679,7 @@ __metadata:
     react-hook-form: ^7.12.2
     react-icons: ^4.2.0
     typescript: ^4.3.5
+    yup: ^0.32.9
   languageName: unknown
   linkType: soft
 
@@ -4264,6 +4282,13 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
+"lodash-es@npm:^4.17.15":
+  version: 4.17.21
+  resolution: "lodash-es@npm:4.17.21"
+  checksum: ff0e7bb9595594d8b9c32fbe15912eaeefd83266f6e6872fbc498533cf8c2f039d12d37034b33965f1c04ef66ec1d6da83377c77e84e14c51a137901bb50865e
+  languageName: node
+  linkType: hard
+
 "lodash.clonedeep@npm:^4.5.0":
   version: 4.5.0
   resolution: "lodash.clonedeep@npm:4.5.0"
@@ -4299,7 +4324,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"lodash@npm:^4.17.13":
+"lodash@npm:^4.17.13, lodash@npm:^4.17.20":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: 4983720b9abca930a4a46f18db163d7dad8dd00dbed6db0cc7b499b33b717cce69f80928b27bbb1ff2cbd3b19d251ee90669a8b5ea466072ca81c2ebe91e7468
@@ -4532,6 +4557,13 @@ fsevents@~2.3.1:
   version: 2.1.3
   resolution: "ms@npm:2.1.3"
   checksum: 6e721e648a544154d5de4c114b32f573d8027ca8ec505cf6c1105e505986d6ac46934a1256735aa0eece8eb2f5b2a1230503b2dddd3b100f9f016fd8a4f15f33
+  languageName: node
+  linkType: hard
+
+"nanoclone@npm:^0.2.1":
+  version: 0.2.1
+  resolution: "nanoclone@npm:0.2.1"
+  checksum: f624fe519818ac2ab9fc2322d0bd8b54def4c0080123e7e4fa4a8d5fa331862e057a5c8fa1923cce6445d011a66718454750058a16c3a68b1912058288cd71a2
   languageName: node
   linkType: hard
 
@@ -5200,6 +5232,13 @@ fsevents@~2.3.1:
     object-assign: ^4.1.1
     react-is: ^16.8.1
   checksum: a440dd406c5cf53bf39f3e898d2c65178511d34ca3c8c789b30c177992408b9e4273969726b274719aa69ccce5ab34b2fd8caa60b90f23cd2e910cdcf682de52
+  languageName: node
+  linkType: hard
+
+"property-expr@npm:^2.0.4":
+  version: 2.0.4
+  resolution: "property-expr@npm:2.0.4"
+  checksum: fffa6ba8a21cbbf694652755fe2cf4d68bfb8c625f2de6424910edf2c7d50a3f4e7e5ac749b8fe42261cb63d12148d7612f207397d244151e2d7fb853ce7bf5b
   languageName: node
   linkType: hard
 
@@ -6438,6 +6477,13 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
+"toposort@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "toposort@npm:2.0.2"
+  checksum: 9e70bf92de5e65e77e89065f34b642a9ae75be5cf4896152b5a131ca66c77c4d9edf056942e988e29b534a83643f38860e148aa939cd3c489d00abbf5639f54f
+  languageName: node
+  linkType: hard
+
 "tr46@npm:^1.0.1":
   version: 1.0.1
   resolution: "tr46@npm:1.0.1"
@@ -6866,5 +6912,20 @@ typescript@^4.3.5:
   version: 0.1.0
   resolution: "yocto-queue@npm:0.1.0"
   checksum: 096c3b40beb2804659539be1605a35c58eb0c85285f94b77b3e924f42ee265c1a40bf9f4153770039517146b469a964d51742395f35ca8135fc9f7e4982b785d
+  languageName: node
+  linkType: hard
+
+"yup@npm:^0.32.9":
+  version: 0.32.9
+  resolution: "yup@npm:0.32.9"
+  dependencies:
+    "@babel/runtime": ^7.10.5
+    "@types/lodash": ^4.14.165
+    lodash: ^4.17.20
+    lodash-es: ^4.17.15
+    nanoclone: ^0.2.1
+    property-expr: ^2.0.4
+    toposort: ^2.0.2
+  checksum: 9da93a58fdd02562b676dc582125b4484d4f06b597498c83e249bdb604937669089e6d38d8a890fe83a256684e6386b389f65e9aef4b6efa5298a3ddb3084ba8
   languageName: node
   linkType: hard
