@@ -87,7 +87,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.13, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.7.2":
+"@babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.10.5, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.13, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.7.2":
   version: 7.14.8
   resolution: "@babel/runtime@npm:7.14.8"
   dependencies:
@@ -1142,6 +1142,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@hookform/resolvers@npm:^2.7.1":
+  version: 2.7.1
+  resolution: "@hookform/resolvers@npm:2.7.1"
+  peerDependencies:
+    react-hook-form: ^7.0.0
+  checksum: 119996e3c8061b026b42162cd247541c23b9d29a9c737ee723be863cbc1c593cb95f0187b4d0e9f3a7d2c014adc59edfc38bd43511db4b04ee4383f9f96ad1f9
+  languageName: node
+  linkType: hard
+
 "@humanwhocodes/config-array@npm:^0.5.0":
   version: 0.5.0
   resolution: "@humanwhocodes/config-array@npm:0.5.0"
@@ -1520,6 +1529,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/lodash@npm:^4.14.165":
+  version: 4.14.172
+  resolution: "@types/lodash@npm:4.14.172"
+  checksum: d4b9c66aa1775ca9105f95fdaf92b8c7ee646fcb75fa8c0617020456470b140f9204335a66e152f269f9cd531634ac3d0caa3f85ce3acdad9bc6951aa6e89aae
+  languageName: node
+  linkType: hard
+
 "@types/node@npm:*, @types/node@npm:^16.4.6":
   version: 16.4.6
   resolution: "@types/node@npm:16.4.6"
@@ -1812,6 +1828,20 @@ __metadata:
     normalize-path: ^3.0.0
     picomatch: ^2.0.4
   checksum: cd6c08eb8d435741a9de6f5695c75cfba747a50772929ca588235535c6a57d37f2c2b34057768f015fd92abb88108b122ed2e399faac6ae30363a8ca0b6107d0
+  languageName: node
+  linkType: hard
+
+"apexcharts@npm:^3.27.3":
+  version: 3.27.3
+  resolution: "apexcharts@npm:3.27.3"
+  dependencies:
+    svg.draggable.js: ^2.2.2
+    svg.easing.js: ^2.0.0
+    svg.filter.js: ^2.0.2
+    svg.pathmorphing.js: ^0.1.3
+    svg.resize.js: ^1.4.3
+    svg.select.js: ^3.0.1
+  checksum: 925939c5c5f11805062946f725563093f66ff810947e006c164abb1717571f77777b4c17e54b308e200204561f02fc9921141558cf1e0a4eef44226fac08e880
   languageName: node
   linkType: hard
 
@@ -2635,15 +2665,21 @@ __metadata:
     "@chakra-ui/react": ^1.6.5
     "@emotion/react": ^11.4.0
     "@emotion/styled": ^11.3.0
+    "@hookform/resolvers": ^2.7.1
     "@types/node": ^16.4.6
     "@types/react": ^17.0.15
+    apexcharts: ^3.27.3
     eslint: 7.31.0
     eslint-config-next: 11.0.1
     framer-motion: ^4.1.17
     next: 11.0.1
     react: 17.0.2
+    react-apexcharts: ^1.3.9
     react-dom: 17.0.2
+    react-hook-form: ^7.12.2
+    react-icons: ^4.2.0
     typescript: ^4.3.5
+    yup: ^0.32.9
   languageName: unknown
   linkType: soft
 
@@ -4246,6 +4282,13 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
+"lodash-es@npm:^4.17.15":
+  version: 4.17.21
+  resolution: "lodash-es@npm:4.17.21"
+  checksum: ff0e7bb9595594d8b9c32fbe15912eaeefd83266f6e6872fbc498533cf8c2f039d12d37034b33965f1c04ef66ec1d6da83377c77e84e14c51a137901bb50865e
+  languageName: node
+  linkType: hard
+
 "lodash.clonedeep@npm:^4.5.0":
   version: 4.5.0
   resolution: "lodash.clonedeep@npm:4.5.0"
@@ -4281,7 +4324,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"lodash@npm:^4.17.13":
+"lodash@npm:^4.17.13, lodash@npm:^4.17.20":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: 4983720b9abca930a4a46f18db163d7dad8dd00dbed6db0cc7b499b33b717cce69f80928b27bbb1ff2cbd3b19d251ee90669a8b5ea466072ca81c2ebe91e7468
@@ -4514,6 +4557,13 @@ fsevents@~2.3.1:
   version: 2.1.3
   resolution: "ms@npm:2.1.3"
   checksum: 6e721e648a544154d5de4c114b32f573d8027ca8ec505cf6c1105e505986d6ac46934a1256735aa0eece8eb2f5b2a1230503b2dddd3b100f9f016fd8a4f15f33
+  languageName: node
+  linkType: hard
+
+"nanoclone@npm:^0.2.1":
+  version: 0.2.1
+  resolution: "nanoclone@npm:0.2.1"
+  checksum: f624fe519818ac2ab9fc2322d0bd8b54def4c0080123e7e4fa4a8d5fa331862e057a5c8fa1923cce6445d011a66718454750058a16c3a68b1912058288cd71a2
   languageName: node
   linkType: hard
 
@@ -5174,7 +5224,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"prop-types@npm:15.7.2, prop-types@npm:^15.5.8, prop-types@npm:^15.6.1, prop-types@npm:^15.6.2, prop-types@npm:^15.7.2":
+"prop-types@npm:15.7.2, prop-types@npm:^15.5.7, prop-types@npm:^15.5.8, prop-types@npm:^15.6.1, prop-types@npm:^15.6.2, prop-types@npm:^15.7.2":
   version: 15.7.2
   resolution: "prop-types@npm:15.7.2"
   dependencies:
@@ -5182,6 +5232,13 @@ fsevents@~2.3.1:
     object-assign: ^4.1.1
     react-is: ^16.8.1
   checksum: a440dd406c5cf53bf39f3e898d2c65178511d34ca3c8c789b30c177992408b9e4273969726b274719aa69ccce5ab34b2fd8caa60b90f23cd2e910cdcf682de52
+  languageName: node
+  linkType: hard
+
+"property-expr@npm:^2.0.4":
+  version: 2.0.4
+  resolution: "property-expr@npm:2.0.4"
+  checksum: fffa6ba8a21cbbf694652755fe2cf4d68bfb8c625f2de6424910edf2c7d50a3f4e7e5ac749b8fe42261cb63d12148d7612f207397d244151e2d7fb853ce7bf5b
   languageName: node
   linkType: hard
 
@@ -5301,6 +5358,18 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
+"react-apexcharts@npm:^1.3.9":
+  version: 1.3.9
+  resolution: "react-apexcharts@npm:1.3.9"
+  dependencies:
+    prop-types: ^15.5.7
+  peerDependencies:
+    apexcharts: ^3.18.0
+    react: ">=0.13"
+  checksum: a7725b7216d98cf1dd44e5ee6ffba4b8c4bd4d938ceea217c7a960b89c3b3e26955cd0cd9dc241dfb9d04671ca53408105051a82f07c69d2c9935fc8c0e12908
+  languageName: node
+  linkType: hard
+
 "react-clientside-effect@npm:^1.2.2, react-clientside-effect@npm:^1.2.5":
   version: 1.2.5
   resolution: "react-clientside-effect@npm:1.2.5"
@@ -5361,6 +5430,24 @@ fsevents@~2.3.1:
   peerDependencies:
     react: ^16.8.0 || ^17.0.0
   checksum: e045331f9c38f997b91f16fc31d4e704ed6674040e3a0ffc7b679f5120363a2e69c6d40d19578f648184b7775de1bcd2ebd649916e8a60820b7ee7df94601c05
+  languageName: node
+  linkType: hard
+
+"react-hook-form@npm:^7.12.2":
+  version: 7.12.2
+  resolution: "react-hook-form@npm:7.12.2"
+  peerDependencies:
+    react: ^16.8.0 || ^17
+  checksum: 23cc1d5c6c718faa01c2fc950a4a4e944f971708051bc072f6ffbe9738bedbefa7755d0d1d691fca72271628eb127f736e3b7b181554f0479f9ed0e53bc725e7
+  languageName: node
+  linkType: hard
+
+"react-icons@npm:^4.2.0":
+  version: 4.2.0
+  resolution: "react-icons@npm:4.2.0"
+  peerDependencies:
+    react: "*"
+  checksum: 0052e25c6aacab93da3328ab856e4971214dce082de4bce857801802903366c7a8f9f490fe02ecd4ce181512b7b55cac12d6273c3c8dccc0e3b71b30dfd28256
   languageName: node
   linkType: hard
 
@@ -6210,6 +6297,77 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
+"svg.draggable.js@npm:^2.2.2":
+  version: 2.2.2
+  resolution: "svg.draggable.js@npm:2.2.2"
+  dependencies:
+    svg.js: ^2.0.1
+  checksum: 848aeb28690727b1e53ed25e03c750ff0f0421c47b4ee2c42ad66f5105794d4c8578653c8e7a3fa29688e9eacfef4859d22bd5ff8fff12439d5ee068133c3b41
+  languageName: node
+  linkType: hard
+
+"svg.easing.js@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "svg.easing.js@npm:2.0.0"
+  dependencies:
+    svg.js: ">=2.3.x"
+  checksum: 96fe897038251ea6f7b5547f4b9524537a3e938512637cbea7b76be3337850f793d413f1ecb81764267459c2c660ddde9ba7aba82493a63e49fb0b0b27daf020
+  languageName: node
+  linkType: hard
+
+"svg.filter.js@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "svg.filter.js@npm:2.0.2"
+  dependencies:
+    svg.js: ^2.2.5
+  checksum: 1da46610e67632f0f2c6fc851f901e8fb9c243a4c837b326225a9e84ffddb73e31c9bd522550d723733b000ca278afafc4ad6a6217940a1781f6aec2f9bf2e04
+  languageName: node
+  linkType: hard
+
+"svg.js@npm:>=2.3.x, svg.js@npm:^2.0.1, svg.js@npm:^2.2.5, svg.js@npm:^2.4.0, svg.js@npm:^2.6.5":
+  version: 2.7.1
+  resolution: "svg.js@npm:2.7.1"
+  checksum: 4a20d2b1bc1e1da78de75e52518030f2427d26fa91d753630fbde13b8cea1bc0fffd4770c558283fe813d6a928a8d65215c1eec8f36fda273e719818aba7f2ad
+  languageName: node
+  linkType: hard
+
+"svg.pathmorphing.js@npm:^0.1.3":
+  version: 0.1.3
+  resolution: "svg.pathmorphing.js@npm:0.1.3"
+  dependencies:
+    svg.js: ^2.4.0
+  checksum: 80337759cf13467cc96ae585f7752476f6a9006f4f1fe6e837df50e1835961a330dc09312ed42405243d67d3b1224c8153960491d9bf4bd554cc8ff7bddedd9f
+  languageName: node
+  linkType: hard
+
+"svg.resize.js@npm:^1.4.3":
+  version: 1.4.3
+  resolution: "svg.resize.js@npm:1.4.3"
+  dependencies:
+    svg.js: ^2.6.5
+    svg.select.js: ^2.1.2
+  checksum: 90928fa180f44bb5db489adffcc922e79f02df5ec8da7e52bc0b8795f95f4aa86821b24636215e0ce35c8384bb94b36c6c19eca82c3684dddb1035bdc5e7a2ea
+  languageName: node
+  linkType: hard
+
+"svg.select.js@npm:^2.1.2":
+  version: 2.1.2
+  resolution: "svg.select.js@npm:2.1.2"
+  dependencies:
+    svg.js: ^2.2.5
+  checksum: fb2cfe18dea869d85243aa8583665a0fa9ac8f5f526247c70ee9f63c3658f951426f000f1430291835375f14f4098b6f398df2fcbe560539fd0bfa547c28c9b1
+  languageName: node
+  linkType: hard
+
+"svg.select.js@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "svg.select.js@npm:3.0.1"
+  dependencies:
+    svg.js: ^2.6.5
+  checksum: f5b6db853ba083d9bbf2fb3e5a93b1368fa204ce2464f6712124bb8e5f691416eab0983ba7f69b2351269d40ed56feb2f4912ffa976f547d3fb729db2f260920
+  languageName: node
+  linkType: hard
+
 "table@npm:^6.0.9":
   version: 6.7.1
   resolution: "table@npm:6.7.1"
@@ -6316,6 +6474,13 @@ resolve@^2.0.0-next.3:
   version: 1.0.0
   resolution: "toidentifier@npm:1.0.0"
   checksum: 95720e8a0f98f1525f50ccbecbc2a23f0a1b4e448de03819dbbeda03adf0d2010fe64525fbc9d549765242550d341bb891672e4ac0b2cac58613cdd742324255
+  languageName: node
+  linkType: hard
+
+"toposort@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "toposort@npm:2.0.2"
+  checksum: 9e70bf92de5e65e77e89065f34b642a9ae75be5cf4896152b5a131ca66c77c4d9edf056942e988e29b534a83643f38860e148aa939cd3c489d00abbf5639f54f
   languageName: node
   linkType: hard
 
@@ -6747,5 +6912,20 @@ typescript@^4.3.5:
   version: 0.1.0
   resolution: "yocto-queue@npm:0.1.0"
   checksum: 096c3b40beb2804659539be1605a35c58eb0c85285f94b77b3e924f42ee265c1a40bf9f4153770039517146b469a964d51742395f35ca8135fc9f7e4982b785d
+  languageName: node
+  linkType: hard
+
+"yup@npm:^0.32.9":
+  version: 0.32.9
+  resolution: "yup@npm:0.32.9"
+  dependencies:
+    "@babel/runtime": ^7.10.5
+    "@types/lodash": ^4.14.165
+    lodash: ^4.17.20
+    lodash-es: ^4.17.15
+    nanoclone: ^0.2.1
+    property-expr: ^2.0.4
+    toposort: ^2.0.2
+  checksum: 9da93a58fdd02562b676dc582125b4484d4f06b597498c83e249bdb604937669089e6d38d8a890fe83a256684e6386b389f65e9aef4b6efa5298a3ddb3084ba8
   languageName: node
   linkType: hard
